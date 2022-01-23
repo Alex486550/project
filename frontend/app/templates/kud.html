@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<table>
+    <thead>
+    <tr>
+        <th id="id">ID</th>
+<!--   <th id="wrappertype">WRAPPERTYPE </th>-->
+   <th id="kind">KIND</th>
+<!--   <th id="artistid">ARTISTID</th>-->
+<!--   <th id="collectionid">COLLECTIONID</th>-->
+<!--   <th id="trackid">TRACKID</th>-->
+<!--   <th id="artistname">ARTISTNAME</th>-->
+   <th id="collectionname">COLLECTIONNAME</th>
+   <th id="trackname">TRACKNAME</th>
+<!--   <th id="collectioncensoredname">COLLECTIONCENSOREDNAME</th>-->
+<!--   <th id="trackviewurl">TRACKVIEWURL</th>-->
+<!--   <th id="previewurl">PREVIEWURL</th>-->
+<!--   <th id="artworkurl30">ARTWORKURL30</th>-->
+<!--   <th id="artworkurl60">ARTWORKURL60</th>-->
+<!--   <th id="trackcensoredname">TRACKCENSOREDNAME</th>-->
+<!--   <th id="artistviewurl">ARTISTVIEWURL</th>-->
+<!--   <th id="collectionviewurl">COLLECTIONVIEWURL</th>-->
+<!--   <th id="artworkurl100">ARTWORKURL100</th>-->
+   <th id="collectionprice">COLLECTIONPRICE</th>
+   <th id="trackprice">TRACKPRICE</th>
+   <th id="primarygenrename">PRIMARYGENRENAME</th>
+   <th id="trackcount">TRACKCOUNT</th>
+   <th id="tracknumber">TRACKNUMBER</th>
+   <th id="releasedate">RELEASEDATE</th>
+<!--   <th id="collectionexplicitness">COLLECTIONEXPLICITNESS</th>-->
+<!--   <th id="trackexplicitness">TRACKEXPLICITNESS</th>-->
+<!--   <th id="disccount">DISCCOUNT</th>-->
+<!--   <th id="discnumber">DISCNUMBER</th>-->
+<!--   <th id="tracktimemillis">TRACKTIMEMILLIS</th>-->
+<!--   <th id="country">COUNTRY</th>-->
+<!--   <th id="currency">CURRENCY</th>-->
+<!--   <th id="isstreamable">ISSTREAMABLE</th>-->
+    </tr>
+    </thead>
+    <tbody>
+        {% for item in data %}
+            <tr>
+                <td>{{item[0]}}</td>
+                <td>{{item[1]}}</td>
+                <td>{{item[2]}}</td>
+                <td>{{item[3]}}</td>
+                <td>{{item[4]}}</td>
+                <td>{{item[5]}}</td>
+                <td>{{item[6]}}</td>
+                <td>{{item[7]}}</td>
+                <td>{{item[8]}}</td>
+                <td>{{item[9]}}</td>
+                <td>{{item[10]}}</td>
+<!--                <td>{{item[11]}}</td>-->
+<!--                <td>{{item[12]}}</td>-->
+<!--                <td>{{item[13]}}</td>-->
+<!--                <td>{{item[14]}}</td>-->
+<!--                <td>{{item[15]}}</td>-->
+<!--                <td>{{item[16]}}</td>-->
+<!--                <td>{{item[17]}}</td>-->
+<!--                <td>{{item[18]}}</td>-->
+<!--                <td>{{item[19]}}</td>-->
+<!--                <td>{{item[15]}}</td>-->
+<!--                <td>{{item[16]}}</td>-->
+<!--                <td>{{item[17]}}</td>-->
+<!--                <td>{{item[18]}}</td>-->
+<!--                <td>{{item[19]}}</td>-->
+<!--                <td>{{item[20]}}</td>-->
+<!--                <td>{{item[21]}}</td>-->
+<!--                <td>{{item[22]}}</td>-->
+<!--                <td>{{item[23]}}</td>-->
+<!--                <td>{{item[24]}}</td>-->
+<!--                <td>{{item[25]}}</td>-->
+<!--                <td>{{item[26]}}</td>-->
+<!--                <td>{{item[27]}}</td>-->
+<!--                <td>{{item[28]}}</td>-->
+<!--                <td>{{item[29]}}</td>-->
+<!--                <td>{{item[30]}}</td>-->
+<!--                <td>{{item[31]}}</td>-->
+<!--                <td>{{item[32]}}</td>-->
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>

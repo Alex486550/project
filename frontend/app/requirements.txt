@@ -1,0 +1,4 @@
+flask
+psycopg2
+connect
+flask_sqlalchemy
